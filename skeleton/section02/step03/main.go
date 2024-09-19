@@ -30,8 +30,7 @@ func main() {
 	}
 
 	// TODO: キーがstring型で値がint型のマップを定義する
-
-
+	result := make(map[string]int)
 	for i := 0; i < n; i++ {
 
 		// 0から99までの間で乱数を生成する
